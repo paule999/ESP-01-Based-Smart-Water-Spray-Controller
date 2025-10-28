@@ -18,7 +18,7 @@ Unless changed in code... The default spray time= 1000ms (1sec) Min spray time= 
 
             
 <img width="1190" height="845" alt="Based Smart Spray Controller_Schematic" src="https://github.com/user-attachments/assets/c544ffe2-dd0d-4137-b59c-a2e04908ffbe" />
-![sprayer5](https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785)
+<img width="1190" height="845" alt="Based Smart Spray Controller_Schematic" src="https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785" />
 ![sprayer4](https://github.com/user-attachments/assets/b61831fa-6538-4722-bc4b-a578dcd98deb)
 ![sprayer3](https://github.com/user-attachments/assets/fdd5bba5-dc07-4a04-843a-0585a9b0abd6)
 ![sprayer2](https://github.com/user-attachments/assets/90ae5bb0-6ee4-4a51-a113-25fddf48911c)
