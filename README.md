@@ -16,11 +16,12 @@ MQTT publishes online/offline status to 'sprayer/status' whilst control is possi
 
 Unless changed in code... The default spray time= 1000ms (1sec) Min spray time= 250ms (1/4sec) and Max spray time = 120000ms (2min).
 
-            
-<img width="1190" height="845" alt="Based Smart Spray Controller_1" src="https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785" />
+<img width="1190" height="845" alt="Based Smart Spray Controller_6" src="https://github.com/user-attachments/assets/c9966589-2248-4f03-b252-339981e2a3b6" />           
 <img width="1190" height="845" alt="Based Smart Spray Controller_Schematic" src="https://github.com/user-attachments/assets/c544ffe2-dd0d-4137-b59c-a2e04908ffbe" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_2" src="https://github.com/user-attachments/assets/b61831fa-6538-4722-bc4b-a578dcd98deb" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_3" src="https://github.com/user-attachments/assets/fdd5bba5-dc07-4a04-843a-0585a9b0abd6" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_4" src="https://github.com/user-attachments/assets/90ae5bb0-6ee4-4a51-a113-25fddf48911c" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_5" src="https://github.com/user-attachments/assets/19ed2201-7a13-4114-9a57-92671b13be93" />
-<img width="1190" height="845" alt="Based Smart Spray Controller_6" src="https://github.com/user-attachments/assets/c9966589-2248-4f03-b252-339981e2a3b6" />
+
+
+<img width="1190" height="845" alt="Based Smart Spray Controller_1" src="https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785" />
