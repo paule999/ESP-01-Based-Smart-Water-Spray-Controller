@@ -1,7 +1,25 @@
 # ESP-01-Based-Smart-Water-Sprayer
 ESP-01 based controller for electronic sprayer bottle
 
-The brainchild of my 3 year old requesting a remote controlled water sprayer! 
+This is really brainchild of my 3 year old requesting a remote controlled water sprayer having been asked what he'd like to make!
+
+Key Features:
+
+🌐 Dual control via Web UI and MQTT topics
+
+⚙️ Configurable pulse duration (e.g., ON:250 for 250 ms relay activation)
+
+📶 Wi-FiManager captive portal for network setup
+
+🔁 Persistent multi-Wi-Fi connection logic (primary + fallback)
+
+🔔 MQTT Last Will & Testament + status updates
+
+🛠️ OTA updates for remote firmware upgrades
+
+💾 Web-based configuration page with instant feedback
+
+🔌 Designed for low-cost ESP-01 relay modules
 
 Using parts I had to hand I came up with this very basic (but functional) circuit to directly mimic a physical press of the momentary button used to toggle power to the sprayer pump using a cheap Chinese tlp176a opto-isolating relay to briefly short across the sprayers momentary switch contacts (the sprayer PCB has a latching circuit and so a second momentary button press is needed to turn the pump off again).
 
@@ -24,4 +42,4 @@ Unless changed in code... The default spray time= 1000ms (1sec) Min spray time= 
 <img width="1190" height="845" alt="Based Smart Spray Controller_5" src="https://github.com/user-attachments/assets/19ed2201-7a13-4114-9a57-92671b13be93" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_1" src="https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785" />
 
-As this was a very quick throw it together project to keep a 3 y.o. interested & happy it is very rough and ready! it has, though, proved to work even better than I'd expected.
+I've probably spent more time creating this repo than I did actually creating the controller (I know it shows!). This was a very quick rough and ready, throw it together type project to keep a 3 y.o. interested & happy... it has, though, proved to work even better than I'd expected and maybe deserves more time in future to refine it. 
