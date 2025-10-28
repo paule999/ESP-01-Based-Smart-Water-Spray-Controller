@@ -7,7 +7,7 @@ Using parts I had to hand I came up with this very basic (but functional) circui
 
 The ESP-01 is powered by a HT7333 LDO voltage regulator driven by the sprayers own 18650 Li-ion cell with a 10uf tantalum smoothing capacitor. The supplied 18650 is of pretty low capacity but 24hrs standby time appears to be possible... A decent 3500mAh cell lasts closer 48hrs. obviously these timings will drop with greater pump usage.
 
-The Photos (but not the schematic) show a set of 4 header pins (used for initial code upload via a FTDL adapter) and a switch which simply connects GPIO0 to GND for code upload... Both of which are redundant following initial code upload as I've added OTA upload.
+The Photos (but not the schematic) show a set of 4 header pins (used for initial code upload via a FTDL adapter) and a switch which simply connects GPIO0 to GND for code upload... Both of which are redundant following initial code upload as I've added OTA upload and could have been removed altogether.
 
 Coding wise I am a beginner really and as such heavily reliant on ChatGPT for most of this... there could well still be bugs left to find!
 
@@ -23,3 +23,5 @@ Unless changed in code... The default spray time= 1000ms (1sec) Min spray time= 
 <img width="1190" height="845" alt="Based Smart Spray Controller_3" src="https://github.com/user-attachments/assets/fdd5bba5-dc07-4a04-843a-0585a9b0abd6" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_5" src="https://github.com/user-attachments/assets/19ed2201-7a13-4114-9a57-92671b13be93" />
 <img width="1190" height="845" alt="Based Smart Spray Controller_1" src="https://github.com/user-attachments/assets/e5324d1b-6a76-4dea-83e9-14410d417785" />
+
+As this was a very quick throw it together project to keep a 3 y.o. interested & happy it is very rough and ready! it has, though, proved to work even better than I'd expected.
