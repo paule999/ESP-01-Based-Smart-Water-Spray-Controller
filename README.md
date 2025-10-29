@@ -19,13 +19,11 @@ Key Features:
 
 💾 Web-based configuration page with instant feedback
 
-🔌 Designed for low-cost ESP-01 relay modules
-
 Using parts I had to hand I came up with this very basic (but functional) circuit to directly mimic a physical press of the momentary button used to toggle power to the sprayer pump using a cheap Chinese tlp176a opto-isolating relay to briefly short across the sprayers momentary switch contacts (the sprayer PCB has a latching circuit and so a second momentary button press is needed to turn the pump off again).
 
 The ESP-01 is powered by a HT7333 LDO voltage regulator driven by the sprayers own 18650 Li-ion cell with a 10uf tantalum smoothing capacitor. The supplied 18650 is of pretty low capacity but 24hrs standby time appears to be possible... A decent 3500mAh cell lasts closer 48hrs. obviously these timings will drop with greater pump usage.
 
-The Photos (but not the schematic) show a set of 4 header pins (used for initial code upload via a FTDL adapter) and a switch which simply connects GPIO0 to GND for code upload... Both of which are redundant following initial code upload as I've added OTA upload and could have been removed altogether.
+The photos (but not the schematic) show a set of 4 header pins (used for initial code upload via a FTDI adapter) and a switch which simply connects GPIO0 to GND for code upload... Both of which are redundant following initial code upload as I've added OTA upload and could have been removed altogether.
 
 Coding wise I am a beginner really and as such heavily reliant on ChatGPT for most of this... there could well still be bugs left to find!
 
